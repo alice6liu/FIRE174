@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/Vault/P5/current/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/Vault/P5/current/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Black Contemporary Social Movements, Resource Mobilization, and Black Musical Activism Race and Reform in Twenty-First Century America</title>
+            <title type="sub">Digital Edition</title>
+          <author>
+            <persName>Alice Liu</persName>
+          </author>
+         <respStmt>
+           <resp>TEI Template provided by</resp>
+           <persName>Jessica Lu</persName>
+           </respStmt>
+         </titleStmt>
+         <publicationStmt>
+           <publisher>
+             <orgName>Law and Contemporary Problems</orgName>
+             </publisher>
+           <date when="2018-08-05">August 5, 2016</date>
+           <pubPlace>
+             <settlement>College Park</settlement>
+             <region>Maryland</region>
+            </pubPlace>
+         </publicationStmt>
+         <sourceDesc>
+           <bibl>
+             <title>Black Contemporary Social Movements, Resource Mobilization, and Black Musical Activism Race and Reform in Twenty-Firsty Century America</title>
+             <author>Andrea L. Dennis</author>
+          </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+      </encodingDesc>
+      <profileDesc>
+      </profileDesc>
+      <revisionDesc>
+      </revisionDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <p>And I'm in denial
+           And it don't take no x-ray to see right through my smile
+           I know, I'd be on the go
+           And it ain't no drink out there that can numb my soul
+           No, no
+
+           All we want to do is take the chains off
+           All we want to do is break the chains off
+           All we want to do is be free
+           All we want to do is be free
+           All we want to do is take the chains off
+           All we want to do is break the chains off
+           All we want to do is be free
+           All we want to do is be free
+
+           Can you tell me why every time I step outside
+           I see my niggas die,
+           Ooh, I'm letting you know
+           That it ain't no gun they make that can kill my soul
+           Oh, no
+
+           All we want to do is take the chains off
+           All we want to do is take the chains off
+           All we want to do is be free
+           All we want to do is be free
+           All we want to do is take the chains off
+           All we want to do is break the chains off
+           All we want to do is be free
+           All we want to do is be free
+
+           Are we all alone fighting on our own
+           Please give me a chance
+           I don't wanna dance
+           Something's got me down
+           I will stand my ground,
+           Don't just stand around
+           Don't just stand around
+
+           All we want to do is take these chains off
+           All we want to do is break the chains off
+           All we want to do is be free
+           All we want to do is be free
+
+           All we want to do is take these chains off
+           All we want to do is break the chains off
+           All we want to do is be free
+           All we want to do is be free</p>
+      </body>
+  </text>
+</TEI>
