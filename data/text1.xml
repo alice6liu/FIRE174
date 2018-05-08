@@ -15,7 +15,7 @@
           <orgName xml:id="FIRE">First Year Innovation and Research Experience (<abbr>FIRE</abbr>)</orgName>
         </author>
         <respStmt>
-          <resp>Template provided by</resp>
+          <resp>TEI Template provided by</resp>
           <persName>Jessica H. Lu</persName>
         </respStmt>
         <respStmt>
@@ -56,10 +56,6 @@
   </teiHeader>
   <text>
     <body>
-      <figure>
-        <graphic url="http://www.beyonce.com/freedom/"/>
-        <figDesc>A black background with capitalized white text displaying a powerful message dissected below.</figDesc>
-      </figure>
       <p>WE <supplied reason="clarification">The Black Population or African Americans in the United States</supplied> ARE SICK AND TIRED OF THE KILLINGS OF YOUNG<lb/>
         MEN AND WOMEN IN OUR COMMUNITIES.</p>
 
