@@ -10,7 +10,7 @@
         <author>
           <persName xml:id="AL">
             <forename>Alice</forename>
-            <surname>Liu</surname>
+            <surname>Liu |</surname>
           </persName>
           <orgName xml:id="FIRE">First Year Innovation and Research Experience (<abbr>FIRE</abbr>)</orgName>
         </author>
@@ -34,7 +34,7 @@
           <settlement>College Park</settlement>
           <region>Maryland</region>
         </pubPlace>
-        <date when="2018-04-08">April 27, 2018</date>
+        <date when="2018-04-27">April 27, 2018</date>
       </publicationStmt>
       <sourceDesc>
         <bibl>
@@ -45,13 +45,13 @@
           <publisher>
             <orgName ref="TOWB">The Official Website of Beyonce</orgName>
           </publisher>
-          <pubPlace ref="http://www.beyonce.com/freedom/">beyonce.com</pubPlace> <!-- I decided to encode Beyonce's website as a place with respect to African American history and the ability to voice one's opinions to the public through the Internet.!-->
+          <pubPlace ref="http://www.beyonce.com/freedom/">beyonce.com</pubPlace> <!-- I decided to encode Beyonce's website as a place with respect to African American history and the ability to voice one's opinions to the public through the Internet. A Black woman is utilizing digital space to talk directly to her audience, which is important given the historic and contemporary barriers Black women face when asserting their voice or experience.!-->
           <date when="2016-07-07">July 7, 2016</date>
         </bibl>
       </sourceDesc>
     </fileDesc>
     <revisionDesc>
-      <change>No changes have been made at this time.</change> <!--Since Beyonce has built a brand for herself and established credibility, everything she publishes is reviewed to make sure there are no errors and that it is flawless enough to release to the public.!-->
+      <change>No changes have been made at this time.</change>
     </revisionDesc>
   </teiHeader>
   <text>
@@ -59,7 +59,7 @@
       <p>WE <supplied reason="clarification">The Black Population or African Americans in the United States</supplied> ARE SICK AND TIRED OF THE KILLINGS OF YOUNG<lb/>
         MEN AND WOMEN IN OUR COMMUNITIES.</p>
 
-      <p>IT IS UP TO US <supplied reason="Continuous references to a greater community through inclusive language"></supplied> TO TAKE A STAND AND DEMAND THAT THEY<lb/>
+      <p>IT IS UP TO US <supplied reason="repetition">Continuous references to a greater community through inclusive language</supplied> TO TAKE A STAND AND DEMAND THAT THEY<lb/>
         "STOP KILLING US."</p>
 
       <p>WE DON'T NEED SYMPATHY.<lb/>
@@ -72,7 +72,7 @@
       <p>THESE ROBBERIES OF LIVES <supplied reason="clarification">The names of two specific lives are named later on, but they are not just limited to those people.</supplied> MAKE US FEEL HELPLESS AND HOPELESS<lb/>
         BUT WE HAVE TO BELIEVE THAT WE ARE FIGHTING FOR THE RIGHTS OF<lb/>
         THE NEXT GENERATION, FOR THE NEXT YOUNG MEN AND<lb/>
-        WOMEN WHO BELIEVE IN GOOD.</p> <!--Black lives have long been dismissed when it comes to police brutality and other discriminatory actions. Beyonce makes a point to address how lives have in a sense been stripped and taken with no consent. She also addresses that the fight needs to continue for future generations.!-->
+        WOMEN WHO BELIEVE IN GOOD.</p> <!--Black lives have long been dismissed when it comes to police brutality and other discriminatory actions. Beyonce makes a point to address how lives have in a sense been stripped and taken with no consent. She also addresses that the fight needs to continue for future generations. I thought it was important to include a supplied tag to clarify that these lives will be remembered and their names will not be forgotten.!-->
 
       <p><seg type="equality">THIS IS A HUMAN FIGHT. NO MATTER YOUR RACE, GENDER OR SEXUAL<lb/>
         ORIENTATION. THIS IS A FIGHT FOR ANYONE WHO FEELS MARGINALIZED,<lb/>
@@ -82,7 +82,7 @@
         BEING WHO FAILS TO VALUE LIFE. THE WAR ON PEOPLE OF COLOR AND<lb/>
         ALL MINORITIES NEEDS TO BE OVER. <supplied reason="emphasize">Beyonce makes an effort to call out everyone. She includes "any human being" to suggest that anyone can take part in these actions.</supplied> </p>
 
-      <p>FEAR IS NOT AN EXCUSE. HATE WILL NOT WIN.</p> <!--Short phrases that speak volumes. It is pretty straightforward so I did not feel the need to encode any additional comments.!-->
+      <p>FEAR IS NOT AN EXCUSE. HATE WILL NOT WIN.</p> <!--Short phrases that speak volumes. It is pretty straightforward so I did not feel the need to encode any additional comments because I have developed an appreciation for letting Black people speak in their own words without the interpretation or intervention of non-Black people.!-->
 
       <p><seg type="right">WE ALL HAVE THE POWER TO CHANNEL OUR ANGER AND FRUSTRATION<lb/>
         INTO ACTION.</seg> WE MUST USE OUR VOICES TO CONTACT THE POLITICIANS<lb/>
@@ -96,7 +96,7 @@
       <p>CLICK IN TO CONTACT THE POLITICIANS AND LEGISLATORS IN YOUR AREA.<lb/>
         YOUR VOICE WILL BE HEARD. <supplied reason="action">Beyonce ends with a plead for action among the public. She intends to make her point clear that change needs to happen in order for Black lives to improve.</supplied></p>
 
-      <p>- BEYONCE</p>
+      <p><persName ref="#B">- BEYONCE</persName></p>
     </body>
   </text>
 </TEI>

@@ -10,7 +10,7 @@
           <author>
             <persName xml:id="AL">
               <forename>Alice</forename>
-              <surname>Liu</surname>
+              <surname>Liu |</surname>
             </persName>
             <orgName xml:id="FIRE">First Year Innovation and Research Experience (<abbr>FIRE</abbr>)</orgName>
           </author>
@@ -34,7 +34,7 @@
              <settlement>College Park</settlement>
              <region>Maryland</region>
            </pubPlace>
-           <date when="2018-05-08">May 8, 2018</date>
+           <date when="2018-05-11">May 11, 2018</date>
          </publicationStmt>
          <sourceDesc>
            <bibl>
@@ -43,9 +43,9 @@
                <persName xml:id="J">J. Cole</persName>
              </author>
              <publisher>
-               <orgName ref="" ></orgName>
+               <orgName ref="G">Genius</orgName>
              </publisher>
-             <pubPlace ref=""> </pubPlace>
+             <pubPlace ref="http://www.genius.com/J-cole-be-free-lyrics">genius.com</pubPlace>
              <date when="2014-08-15">August 15, 2014</date>
           </bibl>
          </sourceDesc>
