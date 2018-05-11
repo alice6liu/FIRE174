@@ -40,7 +40,7 @@
         <bibl>
           <title>#BEYGOOD: FREEDOM</title>
           <author>
-            <persName xml:id="B">Beyonce</persName> <!---Beyonce's name is spelled incorrectly since there should be an accent on the last e. Due to today's online practices, people have adopted a sense of neglect when it comes to spelling in its full manner.!-->
+            <persName xml:id="B">Beyonce</persName> <!--Beyonce's name is spelled incorrectly since there should be an accent on the last e. Due to today's online practices, people have adopted a sense of neglect when it comes to spelling in its full manner.!-->
           </author>
           <publisher>
             <orgName ref="TOWB">The Official Website of Beyonce</orgName>
@@ -50,9 +50,37 @@
         </bibl>
       </sourceDesc>
     </fileDesc>
-    <revisionDesc>
-      <change>No changes have been made at this time.</change>
-    </revisionDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="eng">English</language>
+      </langUsage>
+      <particDesc>
+        <listPerson>
+          <person>
+            <persName ref="#B">
+              <persName ref="https://www.biography.com/people/beyonce-knowles-39230"></persName>
+              <forename>Beyonce</forename>
+              <surname>Knowles-Carter</surname>
+              <note>Beyonce is a singer and film actress who uses her platform to promote feminism, empower people, and bring awareness to social issues.</note>
+            </persName>
+          </person>
+          <person>
+            <persName xml:id="AS" ref="https://www.thenation.com/article/why-alton-sterling-and-philando-castile-are-dead/">
+              <forename>Alton</forename>
+              <surname>Sterling</surname>
+              <note>Alton Sterling was a 37 year old African American who was fatally shot by two white officers in <placeName>Baton Rouge, Louisiana</placeName> on <date when="2016-07-05">July 5, 2016.</date></note>
+            </persName>
+          </person>
+          <person>
+            <persName xml:id="PC" ref="https://www.thenation.com/article/why-alton-sterling-and-philando-castile-are-dead/">
+              <forename>Philando</forename>
+              <surname>Castile</surname>
+              <note>Philando Castile was shot and killed after being pulled over in <placeName>Falcon Heights</placeName> on <date when="2016-07-06">July 6, 2016.</date></note>
+            </persName>
+          </person>
+        </listPerson>
+      </particDesc>
+    </profileDesc>
   </teiHeader>
   <text>
     <body>
@@ -89,7 +117,7 @@
         AND LEGISLATORS IN OUR DISTRICTS AND DEMAND SOCIAL<lb/>
         AND JUDICIAL CHANGES.</p>
 
-      <p>WHILE WE PRAY FOR THE FAMILIES OF <supplied>Beyonce brought up specific names to amplify identities and keep them relevant.</supplied> <persName xml:id="AS">ALTON STERLING</persName> AND <persName xml:id="PC">PHILANDO<lb/>
+      <p>WHILE WE PRAY FOR THE FAMILIES OF <supplied>Beyonce brought up specific names to amplify identities and keep them relevant.</supplied> <persName ref="AS">ALTON STERLING</persName> AND <persName ref="PC">PHILANDO<lb/>
         CASTILE</persName>, WE WILL ALSO PRAY FOR AN END TO THIS PLAGUE OF INJUSTICE<lb/>
         IN OUR COMMUNITIES.</p>
 
