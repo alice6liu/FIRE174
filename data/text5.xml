@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/Vault/P5/current/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/Vault/P5/current/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+      <titleStmt>
+        <title type="main">Childish Gambino's "This is America"</title>
+        <author>
+          <persName xml:id="JLU">
+            <forename>Jessica</forename>
+            <surname>Lu</surname>
+          </persName>
+          <orgName xml:id="AADHum">African American History, Culture, and Digital Humanities (<abbr>AADHum</abbr>) Initiative</orgName>
+        </author>
+      <respStmt>
+        <resp>Encoded by</resp>
+          <persName xml:id="AL">
+            <forename>Alice</forename>
+            <surname>Liu</surname>
+          </persName>
+      </respStmt>
+      <respStmt>
+        <resp>Original text transcribed by</resp>
+          <persName ref="#AL">
+            <forename>Alice</forename>
+            <surname>Liu</surname>
+          </persName>
+        </respStmt>
+      <respStmt>
+        <resp>Original TEI template provided by</resp>
+          <persName xml:id="RAFF">
+            <forename>Raffaele</forename>
+            <surname>Viglianti</surname>
+          </persName>
+          <orgName xml:id="MITH">Maryland Institute for Technology in the Humanities (<abbr>MITH</abbr>)</orgName>
+        </respStmt>
+      <funder>
+          <orgName xml:id="MELLON">Andrew W. Mellon Foundation</orgName>
+          <orgName xml:id="FIRE">First-Year Innovation and Research Experience (<abbr>FIRE</abbr>)</orgName>
+      </funder>
+    </titleStmt>
+    <editionStmt>
+      <edition n="1">First Edition</edition>
+    </editionStmt>
+    <extent>
+      <measure unit="minutes" quantity="4">4 minutes of original source material</measure>
+    </extent>
+    <publicationStmt>
+      <publisher>
+        <orgName ref="#AADHum">African American History, Culture, and Digital Humanities (<abbr>AADHUM</abbr>) Initiative</orgName>
+      </publisher>
+      <pubPlace>
+        <settlement>College Park</settlement>
+        <region>Maryland (<abbr>MD</abbr>)</region>
+      </pubPlace>
+      <date when="2018-07-09">9 July 2018</date>
+      <availability status="free">
+          <p>In the public domain.</p>
+      </availability>
+    </publicationStmt>
+    <seriesStmt>
+        <title type="main">Encoding for Black Lives: Legacies of Resistance and Reinvention in the (Re)Making of Black Freedom Online</title>
+        <title type="sub">Hip Hop Activism</title>
+        <respStmt>
+            <resp>Edited by</resp>
+            <persName ref="#JLU">
+              <forename>Jessica</forename>
+              <surname>Lu</surname>
+            </persName>
+        </respStmt>
+        <respStmt>
+            <resp>Texts identified and assembled by</resp>
+            <persName ref="#AL">
+              <forename>Alice</forename>
+              <surname>Liu</surname>
+            </persName>
+        </respStmt>
+    </seriesStmt>
+    <sourceDesc>
+      <listBibl>
+      <bibl>
+        <title type="main">This is America</title>
+        <author>
+          <persName xml:id="CG"> <!--Childish Gambino is Donald Glover's stagename.!-->
+            <forename>Donald</forename>
+            <surname>Glover</surname>
+          </persName>
+        </author>
+        <publisher>
+          <orgName xml:id="G">2018 Genius Media Group Inc.</orgName>
+        </publisher>
+        <pubPlace ref="https://genius.com/Childish-gambino-this-is-america-lyrics">genius.com</pubPlace> <!-- I decided to encode Genius as a place because it has become a platform where rap and hip hop genres are discussed freely.!-->
+        <date when="2018-05-05">5 May 2018</date>
+      </bibl>
+      <bibl xml:id="JLUDISS">
+          <title type="main">Reckoning with Freedom</title>
+          <title type="sub">Legacies of Exclusion, Dehumanization, and Black Resistance in the Rhetoric of the Freedmen's Bureau</title>
+          <author>
+              <persName ref="#JLU">
+                <forename>Jessica</forename>
+                <surname>Lu</surname>
+              </persName>
+          </author>
+          <publisher>
+            <orgName xml:id="UMD">University of Maryland</orgName>
+          </publisher>
+          <pubPlace>
+            <settlement>College Park</settlement>
+            <region>Maryland (<abbr>MD</abbr>)</region>
+            <country>United States of America (<abbr>USA</abbr>)</country>
+          </pubPlace>
+          <date when="2018-06-28">28 June 2018</date>
+      </bibl>
+      <bibl>
+          <interpGrp resp="#LUDISS" type="freedom-ideas">
+              <desc>Ideational analysis of freedom.</desc>
+              <interp xml:id="STRAND1">Strand 1</interp>
+              <interp xml:id="STRAND2">Strand 2</interp>
+              <interp xml:id="STRAND3">Strand 3</interp>
+              <interp xml:id="STRAND4">Strand 4</interp>
+              <interp xml:id="STRAND5">Strand 5</interp>
+          </interpGrp>
+      </bibl>
+      </listBibl>
+      <biblStruct type="article"> <!-- Provided as an example of using the sourceDesc to cite Black scholarship that grounds the encoder's decisions during the markup process. -->
+        <analytic>
+          <author>
+            <persName xml:id="BEJ">
+              <forename>Bergis</forename>
+              <surname>Jules</surname>
+            </persName>
+          </author>
+          <title>We're all Bonda Fide</title>
+        </analytic>
+        <monogr>
+          <imprint>
+            <pubPlace ref="#M">Medium</pubPlace>
+            <date when="2018-01-05">5 January 2018</date>
+            <note><supplied source="https://medium.com/on-archivy/were-all-bona-fide-f502bdaea029">Website the article lives on</supplied></note>
+          </imprint>
+        </monogr>
+        <note>In this article, Bergis Jules's discusses how digital Blackness has helped to define its impact on the culture, as it helps audiences "understand activism in this moment. [as well as] cultural expression, and surveillance of people of color online."</note>
+      </biblStruct>
+    </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+    <editorialDecl>
+      <hyphenation eol="none">
+        <p>Except where normalization disrupts the formatting of the digital surrogate when rendered online, all end-of-line hyphenation in the original source material has been reformed. The <gi>choice</gi> element has been used to enclose <gi>orig</gi> and <gi>reg</gi> elements giving the original hyphenation and regularized version, respectively.</p>
+      </hyphenation>
+      <normalization method="markup">
+        <p>All obvious spelling and typographical errors in the original source material is corrected. The <gi>choice</gi> element has been used to enclose <gi>sic</gi> and <gi>corr</gi> elements giving the original error and correction, respectively.</p>
+      </normalization>
+      <normalization method="silent">
+        <p>Whenever necessary, spacing between words and following punctuation has been regularized to zero spaces; spacing between words has been regularized to one space.</p>
+      </normalization>
+      <normalization source="https://www.newyorker.com/magazine/2017/05/15/the-case-for-black-english">
+        <p>Instances of African American Vernacular English have purposefully NOT been adjusted to comply with American English language practices. African American Vernacular English is wholly valid in its form, features, and creativity, despite the dominance and presumed correctness of American English.</p>
+      </normalization>
+      <p>To represent changes and/or corrections made by the original source authors BEFORE the encoding process, encoders use <gi>add</gi>, <gi>del</gi>, and <gi>subst</gi>.</p>
+      <p>Encoding includes the use of <gi>supplied</gi> to provide clarification and supporting content, including out-links to relevant digital content and citations of Black and Black-centric academic research.</p>
+    </editorialDecl>
+    <samplingDecl>
+      <p>Use as needed to explain when and why only portions or selections of the original source material are sampled.</p>
+    </samplingDecl>
+    <projectDesc>
+      <p>This project seeks to identify, collect, preserve, and analyze FREEDOM discourse, as constituted and argued by Black users online. Directed by Dr. Jessica H. Lu, this project is currently being advanced by several undergraduate students at the University of Maryland, College Park: Sophia Crooks, Kayla Graham, Kaanita Iyer, Ariana Lawson, Alice Liu, and Courtney Richardson.</p>
+    </projectDesc>
+  </encodingDesc>
+  <profileDesc>
+    <langUsage>
+      <language ident="AAVE">African American Vernacular English</language> <!-- AAVE is purposefully listed first, to visually reinforce its validity alongside Standard American English and primacy among Black Americans. -->
+      <language ident="us-en">Standard American English</language>
+    </langUsage>
+    <particDesc>
+      <listPerson> <!-- Provided to exemplify proper markup form and required elements. -->
+        <person>
+          <persName xml:id="DG" ref="http://id.loc.gov/authorities/names/no2011164117"> <!-- Notice how you can ASSIGN an xml ID within the same tag as a ref, but you cannot REFERENCE a previously assigned xml ID alongside an additional ref. See lines 191 and 192 above. -->
+            <forename>Donald</forename>
+            <surname>Glover</surname>
+          </persName>
+          <idno type="LCAF">no 2011164117</idno>
+          <note>Donald Glover, or Childish Gambino, is an African American actor, comedian, singer, writer, producer, director, rapper, songwriter, and DJ.</note>
+        </person>
+      </listPerson>
+      <personGrp>
+        <persName xml:id="BLK">Black and African American people</persName>
+        <note>The identification and amplification of this person group is necessary for the reading and interpretation of this text, as this text uses "the Negro" to erroneously generalize about all Black and African Americans and/or diminish their status as fully human.</note>
+      </personGrp>
+    </particDesc>
+  </profileDesc>
+  <revisionDesc>
+    <listChange>
+      <change>Identify and explain a substantive change, made on INSERT DATE HERE.</change>
+      <change>Indentify and explain the next substantive change, made on INSERT DATE HERE.</change>
+    </listChange>
+  </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <p>[Intro: Choir]<lb/>
+      Yeah, yeah, yeah, yeah, yeah<lb/>
+      Yeah, yeah, yeah, go, go away<lb/>
+      Yeah, yeah, yeah, yeah, yeah<lb/>
+      Yeah, yeah, yeah, go, go away<lb/>
+      Yeah, yeah, yeah, yeah, yeah<lb/>
+      Yeah, yeah, yeah, go, go away<lb/>
+      Yeah, yeah, yeah, yeah, yeah<lb/>
+      Yeah, yeah, yeah, go, go away<supplied reason="clarification">In this opening scene, the guitarist and gospel choir are featured to represent the tradition of black music and art throughout American history. The choir represents unity to show that black people live together and die together in the fight against injustice. In the video, the guitarrist has a bag over his head and then <persName ref="DG">Childish Gambino</persName> executes him before the switch to the chorus.</supplied></p>
+
+      <p>[Bridge: Childish Gambino + Young Thug]<lb/>
+      We just wanna party<lb/>
+      Party just for you<lb/>
+      We just want the money<lb/>
+      Money just for you (yeah)<lb/>
+      I know you wanna party<lb/>
+      Party just for free<lb/>
+      Girl, you got me dancin' (girl, you got me dancin')<lb/>
+      Dance and shake the frame (yeah)<lb/>
+      We just wanna party (yeah)<lb/>
+      Party just for you (yeah)<lb/>
+      We just want the money (yeah)<lb/>
+      Money just for you (you)<lb/>
+      I know you wanna party (yeah)<lb/>
+      Party just for free (yeah)<lb/>
+      Girl, you got me dancin' (girl, you got me dancin', yeah)<lb/>
+      Dance and shake the frame (ooh)<supplied reason="clarification">These lyrics draw a relationship between dancing, partying, and violence which make up entertainment and black life in America. In the video, <persName ref="DG">Gambino</persName> and a group of school children perform popular dances like the <supplied source="https://www.youtube.com/watch?v=7t8Gies2Zps">"shoot"</supplied> and <supplied source="https://www.youtube.com/watch?v=hI067xJHADc">"Roy Purdy dance"</supplied> while other people scatter in the background. This goes to show how social media is blinding people from real problems in America with entertainment trends.</supplied></p>
+
+      <p>[Chorus: Childish Gambino]<lb/>
+      This is America<lb/>
+      Don't catch you slippin' now<lb/>
+      Don't catch you slippin' now<lb/>
+      Look what I'm whippin' now<lb/>
+      This is America (woo)<lb/>
+      Don't catch you slippin' now<lb/>
+      Don't catch you slippin' now<lb/>
+      Look what I'm whippin' now<supplied reason="clarification">The beat starts to become more aggressive. In the video, Gambino shoots someone and his body pose resembles an old <supplied source="https://blackpast.org/aah/jim-crow">Jim Crow caricature.</supplied>These scenes cover the gun violence epidemic in America and instances of police brutality. There is a point trying to be made that guns are treated with more respect than human lives in a scene wher the gun is placed gently on a red cloth.</supplied></p>
+
+      <p>[Verse 1: Childish Gambino, Blocboy JB, Slim Jxmmi, Young Thug + 21 Savage]<lb/>
+      This is America (skrrt, skrrt, woo)<lb/>
+      Don't catch you slippin' now (ayy)<lb/>
+      Look how I'm livin' now<lb/>
+      Police be trippin' now (woo)<lb/>
+      Yeah, this is America (woo, ayy)<lb/>
+      Guns in my area (word, my area)<lb/>
+      I got the strap (ayy, ayy)<lb/>
+      I gotta carry 'em<lb/>
+      Yeah, yeah, I'ma go into this (ugh)<lb/>
+      Yeah, yeah, this is guerilla (woo)<lb/>
+      Yeah, yeah, I'ma go get the bag<supplied reason="clarification">Reference to money or drugs</supplied><lb/>
+      Yeah, yeah, or I'ma get the pad<supplied reason="clarification">Slang for fancy home</supplied><lb/>
+      Yeah, yeah, I'm so cold like, yeah (yeah)<lb/>
+      I'm so dope like, yeah (woo)<lb/>
+      We gon' blow like, yeah (straight up, uh)<supplied reason="clarification">"Cold" and "dope" portray apathy and insensitivity in a chaotic atmosphere (killing and violence all around)</supplied></p>
+
+      <p>[Refrain: Choir + Childish Gambino]<lb/>
+      Ooh-ooh-ooh-ooh-ooh, tell somebody<lb/>
+      You go tell somebody<lb/>
+      Grandma told me<lb/>
+      Get your money, Black man (get your- Black man)<lb/>
+      Get your money, Black man (get your- Black man)<lb/>
+      Get your money, Black man (get your- Black man)<lb/>
+      Get your money, Black man (get your- Black man)<lb/>
+      Black man</p>
+
+      <p>[Chorus: Childish Gambino, Slim Jxmmi + Young Thug]<lb/>
+      This is America (woo, ayy)<lb/>
+      Don't catch you slippin' now (woo, woo, don't catch you slippin' now)<lb/>
+      Don't catch you slippin'(ayy, woah)<lb/>
+      Look what I'm whippin' now (Slime!)<lb/>
+      This is America (yeah, yeah)<lb/>
+      Don't catch you slippin' now (woah, ayy)<lb/>
+      Don't catch you slippin' now (ayy, woo)<lb/>
+      Look what I'm whippin' now (ayy)</p>
+
+      <p>[Verse 2: Childish Gambino, Quavo, Young Thug + 21 Savage]<lb/>
+      Look how I'm geekin' out (hey)<lb/>
+      I'm so fitted (I'm so fitted, woo)<lb/>
+      I'm on Gucci (I'm on Gucci)<supplied reason="clarification">Mimicking people who are easily distracted from social issues by material items and social status</supplied><lb/>
+      I'm so pretty (yeah, yeah)<lb/>
+      I'm gon' get it (ayy, I'm gon' get it)<lb/>
+      Watch me move (blaow)<lb/>
+      This a celly<supplied reason="clarification">iPhone</supplied> (ha)<lb/>
+      That's a tool (yeah)<lb/>
+      On my Kodak (woo, Black)<lb/>
+      Ooh, know that (yeah, know that, hold on)<lb/>
+      Get it (get it, get it)<lb/>
+      Ooh, work it (21)<lb/>
+      Hunnid bands, hunnid bands, hunnid bands (hunnid bands)<supplied reason="clarification">Thousand dollars</supplied><lb/>
+      Contraband, contraband, contrabank (contraband)<lb/>
+      I got the plug in Oaxaca (woah)<lb/>
+      They gonna find you like "blocka" (blaow)</p>
+
+      <p>[Refrain: Choir, Childish Gambino + Young Thug]<lb/>
+      Ooh-ooh-ooh-ooh-ooh, tell somebody<lb/>
+      America, I just checked my following list, and- You go tell somebody-You mothafuckas owe me<lb/>
+      Grandma told me<lb/>
+      Get your money, Black man (Black man)<lb/>
+      Get your money, Black man (Black man)<lb/>
+      Get your money, Black man (Black man)<lb/>
+      Get your money, Black man (Black man)<lb/>
+      Black man<lb/>
+      (1, 2, 3- get down)<lb/>
+      Ooh-ooh-ooh-ooh-ooh, tell somebody<lb/>
+      You go tell somebody<lb/>
+      Grandma told me, "Get your money"<lb/>
+      Get your money, Black man (Black man)<lb/>
+      Get your money, Black man (Black man)<lb/>
+      Get your money, Black man (Black man)<lb/>
+      Get your money, Black man (Black man)<lb/>
+      Black man<supplied reason="clarification">The pursuit of money distracts from the suffering and systemic inequality that persists.</supplied></p>
+
+      <p>[Outro: Young Thug]<lb/>
+      You just a black man in this world<lb/>
+      You just a barcode, ayy<lb/>
+      You just a black man in this world<lb/>
+      Drivin' expensive foreigns, ayy<lb/>
+      You just a big dawg, yeah<lb/>
+      I kenneled him in the backyard<lb/>
+      No, probably ain't life to a dog<lb/>
+      For a big dog</p>
+
+    </body>
+  </text>
+</TEI>

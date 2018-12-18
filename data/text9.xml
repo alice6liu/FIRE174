@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/Vault/P5/current/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/Vault/P5/current/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+      <titleStmt>
+        <title type="main">Prince-Baltimore Lyrics</title>
+        <author>
+          <persName xml:id="JLU">
+            <forename>Jessica</forename>
+            <surname>Lu</surname>
+          </persName>
+          <orgName xml:id="AADHum">African American History, Culture, and Digital Humanities (<abbr>AADHum</abbr>) Initiative</orgName>
+        </author>
+      <respStmt>
+        <resp>Encoded by</resp>
+          <persName xml:id="AL">
+            <forename>Alice</forename>
+            <surname>Liu</surname>
+          </persName>
+      </respStmt>
+      <respStmt>
+        <resp>Original text transcribed by</resp>
+          <persName ref="#AL">
+            <forename>Alice</forename>
+            <surname>Liu</surname>
+          </persName>
+        </respStmt>
+      <respStmt>
+        <resp>Original TEI template provided by</resp>
+          <persName xml:id="RAFF">
+            <forename>Raffaele</forename>
+            <surname>Viglianti</surname>
+          </persName>
+          <orgName xml:id="MITH">Maryland Institute for Technology in the Humanities (<abbr>MITH</abbr>)</orgName>
+        </respStmt>
+      <funder>
+          <orgName xml:id="MELLON">Andrew W. Mellon Foundation</orgName>
+          <orgName xml:id="FIRE">First-Year Innovation and Research Experience (<abbr>FIRE</abbr>)</orgName>
+      </funder>
+    </titleStmt>
+    <editionStmt>
+      <edition n="1">First Edition</edition>
+    </editionStmt>
+    <extent>
+      <measure unit="page" quantity="1">1 page of original source material</measure>
+    </extent>
+    <publicationStmt>
+      <publisher>
+        <orgName ref="#AADHum">African American History, Culture, and Digital Humanities (<abbr>AADHUM</abbr>) Initiative</orgName>
+      </publisher>
+      <pubPlace>
+        <settlement>College Park</settlement>
+        <region>Maryland (<abbr>MD</abbr>)</region>
+      </pubPlace>
+      <date when="2018-07-09">9 July 2018</date>
+      <availability status="free">
+          <p>In the public domain.</p>
+      </availability>
+    </publicationStmt>
+    <seriesStmt>
+        <title type="main">Encoding for Black Lives: Legacies of Resistance and Reinvention in the (Re)Making of Black Freedom Online</title>
+        <title type="sub">Hip Hop Activism</title>
+        <respStmt>
+            <resp>Edited by</resp>
+            <persName ref="#JLU">
+              <forename>Jessica</forename>
+              <surname>Lu</surname>
+            </persName>
+        </respStmt>
+        <respStmt>
+            <resp>Texts identified and assembled by</resp>
+            <persName ref="#AL">
+              <forename>Alice</forename>
+              <surname>Liu</surname>
+            </persName>
+        </respStmt>
+    </seriesStmt>
+    <sourceDesc>
+      <listBibl>
+      <bibl>
+        <title type="main">Baltimore</title>
+        <author>
+          <persName xml:id="P">
+            <forename>Prince</forename>
+            <surname>Nelson</surname>
+          </persName>
+        </author>
+        <publisher>
+          <orgName xml:id="G">2018 Genius Media Group Inc.</orgName>
+        </publisher>
+        <pubPlace ref="https://genius.com/Prince-baltimore-lyrics">genius.com</pubPlace> <!-- I decided to encode Genius as a place because it has become a platform where rap and hip hop genres are discussed freely.!-->
+        <date when="2014-04-30">30 April 2015</date>
+      </bibl>
+      <bibl xml:id="JLUDISS">
+          <title type="main">Reckoning with Freedom</title>
+          <title type="sub">Legacies of Exclusion, Dehumanization, and Black Resistance in the Rhetoric of the Freedmen's Bureau</title>
+          <author>
+              <persName ref="#JLU">
+                <forename>Jessica</forename>
+                <surname>Lu</surname>
+              </persName>
+          </author>
+          <publisher>
+            <orgName xml:id="UMD">University of Maryland</orgName>
+          </publisher>
+          <pubPlace>
+            <settlement>College Park</settlement>
+            <region>Maryland (<abbr>MD</abbr>)</region>
+            <country>United States of America (<abbr>USA</abbr>)</country>
+          </pubPlace>
+          <date when="2018-06-28">28 June 2018</date>
+      </bibl>
+      <bibl>
+          <interpGrp resp="#LUDISS" type="freedom-ideas">
+              <desc>Ideational analysis of freedom.</desc>
+              <interp xml:id="STRAND1">Strand 1</interp>
+              <interp xml:id="STRAND2">Strand 2</interp>
+              <interp xml:id="STRAND3">Strand 3</interp>
+              <interp xml:id="STRAND4">Strand 4</interp>
+              <interp xml:id="STRAND5">Strand 5</interp>
+          </interpGrp>
+      </bibl>
+      </listBibl>
+      <biblStruct type="article"> <!-- Provided as an example of using the sourceDesc to cite Black scholarship that grounds the encoder's decisions during the markup process. -->
+        <analytic>
+          <author>
+            <persName xml:id="BEJ">
+              <forename>Bergis</forename>
+              <surname>Jules</surname>
+            </persName>
+          </author>
+          <title>We're all Bonda Fide</title>
+        </analytic>
+        <monogr>
+          <imprint>
+            <pubPlace ref="#M">Medium</pubPlace>
+            <date when="2018-01-05">5 January 2018</date>
+            <note><supplied source="https://medium.com/on-archivy/were-all-bona-fide-f502bdaea029">Website the article lives on</supplied></note>
+          </imprint>
+        </monogr>
+        <note>In this article, Bergis Jules's discusses how digital Blackness has helped to define its impact on the culture, as it helps audiences "understand activism in this moment. [as well as] cultural expression, and surveillance of people of color online."</note>
+      </biblStruct>
+    </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+    <editorialDecl>
+      <hyphenation eol="none">
+        <p>Except where normalization disrupts the formatting of the digital surrogate when rendered online, all end-of-line hyphenation in the original source material has been reformed. The <gi>choice</gi> element has been used to enclose <gi>orig</gi> and <gi>reg</gi> elements giving the original hyphenation and regularized version, respectively.</p>
+      </hyphenation>
+      <normalization method="markup">
+        <p>All obvious spelling and typographical errors in the original source material is corrected. The <gi>choice</gi> element has been used to enclose <gi>sic</gi> and <gi>corr</gi> elements giving the original error and correction, respectively.</p>
+      </normalization>
+      <normalization method="silent">
+        <p>Whenever necessary, spacing between words and following punctuation has been regularized to zero spaces; spacing between words has been regularized to one space.</p>
+      </normalization>
+      <normalization source="https://www.newyorker.com/magazine/2017/05/15/the-case-for-black-english">
+        <p>Instances of African American Vernacular English have purposefully NOT been adjusted to comply with American English language practices. African American Vernacular English is wholly valid in its form, features, and creativity, despite the dominance and presumed correctness of American English.</p>
+      </normalization>
+      <p>To represent changes and/or corrections made by the original source authors BEFORE the encoding process, encoders use <gi>add</gi>, <gi>del</gi>, and <gi>subst</gi>.</p>
+      <p>Encoding includes the use of <gi>supplied</gi> to provide clarification and supporting content, including out-links to relevant digital content and citations of Black and Black-centric academic research.</p>
+    </editorialDecl>
+    <samplingDecl>
+      <p>Use as needed to explain when and why only portions or selections of the original source material are sampled.</p>
+    </samplingDecl>
+    <projectDesc>
+      <p>This project seeks to identify, collect, preserve, and analyze FREEDOM discourse, as constituted and argued by Black users online. Directed by Dr. Jessica H. Lu, this project is currently being advanced by several undergraduate students at the University of Maryland, College Park: Sophia Crooks, Kayla Graham, Kaanita Iyer, Ariana Lawson, Alice Liu, and Courtney Richardson.</p>
+    </projectDesc>
+  </encodingDesc>
+  <profileDesc>
+    <langUsage>
+      <language ident="AAVE">African American Vernacular English</language> <!-- AAVE is purposefully listed first, to visually reinforce its validity alongside Standard American English and primacy among Black Americans. -->
+      <language ident="us-en">Standard American English</language>
+    </langUsage>
+    <particDesc>
+      <listPerson> <!-- Provided to exemplify proper markup form and required elements. -->
+        <person>
+          <persName xml:id="PN" ref="http://id.loc.gov/authorities/names/n84079379">
+            <forename>Prince</forename>
+            <surname>Nelson</surname>
+          <idno type="LCAF">no 84079379</idno>
+          <note>Prince was an American singer, songwriter, musician, record producer, and filmmaker. He was known for his eclectic work, flamboyant stage presence, extravagent fashion sense, use of makeup, and wide vocal range. He passed away in <date when="2018-04-21">21 April 2018</date> in <placeName>Minnesota</placeName>.</note>
+          </persName>
+        </person>
+        <person>
+          <persName xml:id="EAK" ref="http://id.loc.gov/authorities/names/n2018040584">
+            <forename>Eryn Allen</forename>
+            <surname>Kane</surname>
+          <idno type="LCAF">no 2018040584</idno>
+          <note>Eryn Allen Kane is a 29 year-old musical artist specializing in R+B and Soul.</note>
+          </persName>
+          <persName xml:id="MB" ref="http://id.loc.gov/authorities/names/no2015020765">
+            <forename>Michael</forename>
+            <surname>Brown</surname>
+            <idno type="LCAF">no 2015020765</idno>
+            <note>Michael Brown was an unarmed black teenager who was shot and killed on <date when="2014-08-09">August 9, 2014</date> by Darren Wilson in <placeName>Ferguson, Missouri</placeName>.</note>
+          </persName>
+          <persName xml:id="FG" ref="http://id.loc.gov/authorities/names/n2018070538">
+            <forename>Freddie</forename>
+            <surname>Gray</surname>
+            <idno type="LCAF">no 2018070538</idno>
+            <note>Freddie Gray was arrested by the Baltimore Police Department for possessing what the police alleged was an illegal knife.</note>
+          </persName>
+        </person>
+      </listPerson>
+      <personGrp>
+        <persName xml:id="BLK">Black and African American people</persName>
+        <note>The identification and amplification of this person group is necessary for the reading and interpretation of this text, as this text uses "the Negro" to erroneously generalize about all Black and African Americans and/or diminish their status as fully human.</note>
+      </personGrp>
+    </particDesc>
+  </profileDesc>
+  <revisionDesc>
+    <listChange>
+      <change>Identify and explain a substantive change, made on INSERT DATE HERE.</change>
+      <change>Identify and explain the next substantive change, made on INSERT DATE HERE.</change>
+    </listChange>
+  </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <p>[Intro: <persName ref="EAK">Eryn Allen Kane</persName>]<lb/>
+         <placeName>Baltimore</placeName></p>
+
+      <p>[Verse 1: <persName ref="PN">Prince</persName>]<lb/>
+         Nobody got in nobody's way<lb/>
+         So I guess you could say it was a good day<lb/>
+         At least a littler better than the day in <placeName>Baltimore</placeName><lb/>
+         Does anybody hear us pray<lb/>
+         For <persName ref="MB">Michael Brown</persName> or <persName ref="FG">Freddie Gray</persName>?<lb/>
+         Peace is more than the absence of way<lb/>
+         Absence of war</p>
+
+      <p>[Chorus:<persName ref="PN">Prince</persName> + <persName ref="EAK">Eryn Allen Kane</persName>]<lb/>
+         Are we gonna see another bloody day<lb/>
+         We're tired of the cryin' and people dyin'<lb/>
+         Let's take all the guns away</p>
+
+      <p>[Verse 2: <persName ref="PN">Prince</persName>]<lb/>
+         Absence of way, you and me<lb/>
+         Maybe we can finally say<lb/>
+         Enough is enough, it's time for love<lb/>
+         It's time to hear<lb/>
+         It's time to hear the guitar play, guitar play<lb/>
+         <placeName>Baltimore</placeName>, ever more</p>
+
+      <p>[Bridge]<lb/>
+         <seg type="justice">If there ain't no justice then there ain't no peace<lb/>
+         If there ain't no justice then there ain't no peace<lb/>
+         If there ain't no justice then there ain't no peace<lb/>
+         If there ain't no justice then there ain't no peace</seg></p>
+
+      <p>[Guitar solo]<lb/>
+
+         [Chorus: <persName ref="PN">Prince</persName> + <persName ref="EAK">Eryn Allen Kane</persName>]<lb/>
+         Are we gonna see another bloody day?<lb/>
+         We're tired of the cryin' and people dyin'<lb/>
+         Let's take all the guns away</p>
+
+     <p>[Bridge]<lb/>
+        <seg type="justice">If there ain't no justice then there ain't no peace<lb/>
+        If there ain't no justice then there ain't no peace<lb/>
+        If there ain't no justice then there ain't no peace<lb/>
+        If there ain't no justice then there ain't no peace</seg></p>
+
+     <p>[Outro]<lb/>
+        We have to interrupt our regular scheduled programming to bring you up to date on a developing situation in <placeName>Los Angeles</placeName></p>
+    </body>
+  </text>
+</TEI>

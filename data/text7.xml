@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/Vault/P5/current/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/Vault/P5/current/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+      <titleStmt>
+        <title type="main">Jay-Z - Spiritual</title>
+        <title type="sub">Digital Edition</title>
+        <author>
+          <persName xml:id="JLU">
+            <forename>Jessica</forename>
+            <surname>Lu</surname>
+          </persName>
+          <orgName xml:id="AADHum">African American History, Culture, and Digital Humanities (<abbr>AADHum</abbr>) Initiative</orgName>
+        </author>
+      <respStmt>
+        <resp>Encoded by</resp>
+          <persName xml:id="AL">
+            <forename>Alice</forename>
+            <surname>Liu</surname>
+          </persName>
+      </respStmt>
+      <respStmt>
+        <resp>Original text transcribed by</resp>
+          <persName ref="#AL">
+            <forename>Alice</forename>
+            <surname>Liu</surname>
+          </persName>
+        </respStmt>
+      <respStmt>
+        <resp>Original TEI template provided by</resp>
+          <persName xml:id="RAFF">
+            <forename>Raffaele</forename>
+            <surname>Viglianti</surname>
+          </persName>
+          <orgName xml:id="MITH">Maryland Institute for Technology in the Humanities (<abbr>MITH</abbr>)</orgName>
+        </respStmt>
+      <funder>
+          <orgName xml:id="MELLON">Andrew W. Mellon Foundation</orgName>
+          <orgName xml:id="FIRE">First-Year Innovation and Research Experience (<abbr>FIRE</abbr>)</orgName>
+      </funder>
+    </titleStmt>
+    <editionStmt>
+      <edition n="1">First Edition</edition>
+    </editionStmt>
+    <extent>
+      <measure unit="page" quantity="1">1 page of original source material</measure>
+    </extent>
+    <publicationStmt>
+      <publisher>
+        <orgName ref="#AADHum">African American History, Culture, and Digital Humanities (<abbr>AADHUM</abbr>) Initiative</orgName>
+      </publisher>
+      <pubPlace>
+        <settlement>College Park</settlement>
+        <region>Maryland (<abbr>MD</abbr>)</region>
+      </pubPlace>
+      <date when="2018-07-09">9 July 2018</date>
+      <availability status="free">
+          <p>In the public domain.</p>
+      </availability>
+    </publicationStmt>
+    <seriesStmt>
+        <title type="main">Encoding for Black Lives: Legacies of Resistance and Reinvention in the (Re)Making of Black Freedom Online</title>
+        <title type="sub">Hip Hop Activism</title>
+        <respStmt>
+            <resp>Edited by</resp>
+            <persName ref="#JLU">
+              <forename>Jessica</forename>
+              <surname>Lu</surname>
+            </persName>
+        </respStmt>
+        <respStmt>
+            <resp>Texts identified and assembled by</resp>
+            <persName ref="#AL">
+              <forename>Alice</forename>
+              <surname>Liu</surname>
+            </persName>
+        </respStmt>
+    </seriesStmt>
+    <sourceDesc>
+      <listBibl>
+      <bibl>
+        <title type="main">Spiritual</title>
+        <title type="sub">Jay-Z</title>
+        <author>
+          <persName xml:id="J">
+            <forename>Shawn</forename>
+            <surname>Carter</surname>
+          </persName>
+        </author>
+        <publisher>
+          <orgName xml:id="G">2018 Genius Media Group Inc.</orgName>
+        </publisher>
+        <pubPlace ref="https://genius.com/Jay-z-spiritual-lyrics">genius.com</pubPlace><!-- I decided to encode Genius as a place because it has become a platform where rap and hip hop genres are discussed freely.!-->
+        <date when="2016-07-07">7 July 2016</date>
+      </bibl>
+      <bibl xml:id="JLUDISS">
+          <title type="main">Reckoning with Freedom</title>
+          <title type="sub">Legacies of Exclusion, Dehumanization, and Black Resistance in the Rhetoric of the Freedmen's Bureau</title>
+          <author>
+              <persName ref="#JLU">
+                <forename>Jessica</forename>
+                <surname>Lu</surname>
+              </persName>
+          </author>
+          <publisher>
+            <orgName xml:id="UMD">University of Maryland</orgName>
+          </publisher>
+          <pubPlace>
+            <settlement>College Park</settlement>
+            <region>Maryland (<abbr>MD</abbr>)</region>
+            <country>United States of America (<abbr>USA</abbr>)</country>
+          </pubPlace>
+          <date when="2018-06-28">28 June 2018</date>
+      </bibl>
+      <bibl>
+          <interpGrp resp="#LUDISS" type="freedom-ideas">
+              <desc>Ideational analysis of freedom.</desc>
+              <interp xml:id="STRAND1">Strand 1</interp>
+              <interp xml:id="STRAND2">Strand 2</interp>
+              <interp xml:id="STRAND3">Strand 3</interp>
+              <interp xml:id="STRAND4">Strand 4</interp>
+              <interp xml:id="STRAND5">Strand 5</interp>
+          </interpGrp>
+      </bibl>
+      </listBibl>
+      <biblStruct type="article"> <!-- Provided as an example of using the sourceDesc to cite Black scholarship that grounds the encoder's decisions during the markup process. -->
+        <analytic>
+          <author>
+            <persName xml:id="BEJ">
+              <forename>Bergis</forename>
+              <surname>Jules</surname>
+            </persName>
+          </author>
+          <title>We're all Bonda Fide</title>
+        </analytic>
+        <monogr>
+          <imprint>
+            <pubPlace ref="#M">Medium</pubPlace>
+            <date when="2018-01-05">5 January 2018</date>
+            <note><supplied source="https://medium.com/on-archivy/were-all-bona-fide-f502bdaea029">Website the article lives on</supplied></note>
+          </imprint>
+        </monogr>
+        <note>In this article, Bergis Jules's discusses how digital Blackness has helped to define its impact on the culture, as it helps audiences "understand activism in this moment. [as well as] cultural expression, and surveillance of people of color online."</note>
+      </biblStruct>
+    </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+    <editorialDecl>
+      <hyphenation eol="none">
+        <p>Except where normalization disrupts the formatting of the digital surrogate when rendered online, all end-of-line hyphenation in the original source material has been reformed. The <gi>choice</gi> element has been used to enclose <gi>orig</gi> and <gi>reg</gi> elements giving the original hyphenation and regularized version, respectively.</p>
+      </hyphenation>
+      <normalization method="markup">
+        <p>All obvious spelling and typographical errors in the original source material is corrected. The <gi>choice</gi> element has been used to enclose <gi>sic</gi> and <gi>corr</gi> elements giving the original error and correction, respectively.</p>
+      </normalization>
+      <normalization method="silent">
+        <p>Whenever necessary, spacing between words and following punctuation has been regularized to zero spaces; spacing between words has been regularized to one space.</p>
+      </normalization>
+      <normalization source="https://www.newyorker.com/magazine/2017/05/15/the-case-for-black-english">
+        <p>Instances of African American Vernacular English have purposefully NOT been adjusted to comply with American English language practices. African American Vernacular English is wholly valid in its form, features, and creativity, despite the dominance and presumed correctness of American English.</p>
+      </normalization>
+      <p>To represent changes and/or corrections made by the original source authors BEFORE the encoding process, encoders use <gi>add</gi>, <gi>del</gi>, and <gi>subst</gi>.</p>
+      <p>Encoding includes the use of <gi>supplied</gi> to provide clarification and supporting content, including out-links to relevant digital content and citations of Black and Black-centric academic research.</p>
+    </editorialDecl>
+    <samplingDecl>
+      <p>Use as needed to explain when and why only portions or selections of the original source material are sampled.</p>
+    </samplingDecl>
+    <projectDesc>
+      <p>This project seeks to identify, collect, preserve, and analyze FREEDOM discourse, as constituted and argued by Black users online. Directed by Dr. Jessica H. Lu, this project is currently being advanced by several undergraduate students at the University of Maryland, College Park: Sophia Crooks, Kayla Graham, Kaanita Iyer, Ariana Lawson, Alice Liu, and Courtney Richardson.</p>
+    </projectDesc>
+  </encodingDesc>
+  <profileDesc>
+    <langUsage>
+      <language ident="AAVE">African American Vernacular English</language> <!-- AAVE is purposefully listed first, to visually reinforce its validity alongside Standard American English and primacy among Black Americans. -->
+      <language ident="us-en">Standard American English</language>
+    </langUsage>
+    <particDesc>
+      <listPerson> <!-- Provided to exemplify proper markup form and required elements. -->
+        <person>
+          <persName xml:id="SC" ref="http://id.loc.gov/authorities/names/n97085822"> <!-- Notice how you can ASSIGN an xml ID within the same tag as a ref, but you cannot REFERENCE a previously assigned xml ID alongside an additional ref. See lines 191 and 192 above. -->
+            <forename>Shawn</forename>
+            <surname>Carter</surname>
+          </persName>
+          <idno type="LCAF">no 97085822</idno>
+          <note>Shawn Carter, who also goes by Jay-Z is an African American rapper, entrepreneur, songwriter, and record producer. He is know as one of the most acclaimed rappers of all time.</note>
+        </person>
+      </listPerson>
+      <personGrp>
+        <persName xml:id="BLK">Black and African American people</persName>
+        <note>The identification and amplification of this person group is necessary for the reading and interpretation of this text, as this text uses "the Negro" to erroneously generalize about all Black and African Americans and/or diminish their status as fully human.</note>
+      </personGrp>
+    </particDesc>
+  </profileDesc>
+  <revisionDesc>
+    <listChange>
+      <change>Identify and explain a substantive change, made on INSERT DATE HERE.</change>
+      <change>Indentify and explain the next substantive change, made on INSERT DATE HERE.</change>
+    </listChange>
+  </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <p>
+        <lg type="song">
+          <lg type="Intro">
+            <l>And it says, now the works of the flesh are manifest</l>
+            <l>Meaning, the things that are in the sinful nature</l>
+            <l>They always come to the surface</l>
+            <l>And when they come, when they come to the surface</l>
+            <l>They come to the surface as demons<supplied reason="clarification">Evil will always manifest itself</supplied></l>
+          </lg>
+          <lg type="Refrain">
+            <l>(All this work can pay off)</l>
+            <l>I just want all this work to pay off</l>
+            <l>(Just don't calculate us)</l>
+            <l>Don't calculate us</l>
+            <l>(Get to know you later)</l>
+            <l>Spiritual, yes it is spiritual</l>
+            <l>No I'm not poison, no I'm not poison</l>
+            <l>(Just don't calculate us)</l>
+            <l>Alcohol in my room</l>
+            <l>Spiritual, yes it is spiritual</l>
+            <l>No I'm not poison, no I'm not poison</l>
+            <l>(Just don't calculate us)</l>
+            <l>Spiritual, yes it is spiritual</l>
+            <l>No I'm not poison, no I'm not poison</l>
+            <l>(Just don't calculate us)</l>
+            <l>Yeah, yeah, yeah<supplied reason="clarification">Alochol is being used to cope with the injustices that Black people are facing</supplied></l>
+          </lg>
+          <lg type="Hook">
+            <l>Yeah, I am not poison, no I am not poison</l>
+            <l>Just a boy from the hood that</l>
+            <l>Got my hands in the air</l>
+            <l>In despair don't shoot</l>
+            <l>I just wanna do good, ah</l>
+            <l>I am not poison, no I am not poison</l>
+            <l>Just a boy from the hood that</l>
+            <l>Got my hands in the air</l>
+            <l>In despair don't shoot</l>
+            <l>I just wanna do good, uh<supplied reason="clarification">Black men are no more dangerous than any other human being. Putting hands in the air has become a cultural symbol for protest against unnecessary policy brutality</supplied></l>
+          </lg>
+          <lg type="Verse-1">
+            <l>Pray your father's father wasn't touching his little daughter</l>
+            <l>Creating trans-generational trauma, that shit'll haunt ya</l>
+            <l>Pray your little cousing ain't fall from the place that you fall asleep</l>
+            <l>Of course it's hard for me</l>
+            <l>Nigga ain't dozed, I ain't washed in a week</l>
+            <l>I ain't changed clothed 'til the Black Album</l>
+            <l>Y'all rap about it, I'm wrestlin' in these streets</l>
+            <l>'Til I tapped out 'em, them niggas is WWE</l>
+            <l>Y'all can have that, I'm smack dab</l>
+            <l>In a hurricane of emotions</l>
+            <l>Can't even raise my little daughter, my little Carter</l>
+            <l>We call her Blue cause it's sad that</l>
+            <l>How can I be a dad that, I never had that</l>
+            <l>Shattered in a million pieces, where the glass at</l>
+            <l>I need a drink, shrink or something</l>
+            <l>I need an angelic voice to sing something</l>
+            <l>Bless my soul, extend your arms, I'm cold</l>
+            <l>Hold me for a half hour until I am whole, yeah</l>
+          </lg>
+          <lg type="Hook">
+            <l>I am not poison, no I am not poison</l>
+            <l>Just a boy from the hood that</l>
+            <l>Got my hands in the air</l>
+            <l>In despair, don't shoot</l>
+            <l>I just wanna do good, ah</l>
+            <l>Alochol in my room</l>
+            <l>Spiritual, yes it is spiritual</l>
+            <l>No I'm not poison, no I'm not poison</l>
+            <l>(Just don't calculate us)</l>
+            <l>Spiritual, yes it is spiritual</l>
+            <l>No I'm not poison, no I'm not poison</l>
+            <l>(Just don't calculate us)</l>
+            <l>Yeah, yeah, yeah</l>
+          </lg>
+          <lg type="Verse-2">
+            <l>Sick of hiding in hold and behind hyperbole</l>
+            <l>This is the real me unfold</l>
+            <l>Gangster is love, I'm thuggin', I'm huggin'</l>
+            <l>This is tougher than any gun that I raised</l>
+            <l>Any crack that I blazed, that was nothin'</l>
+            <l>Peeling back the layers, uncovering</l>
+            <l>Scars that never healed, I never kept it this real</l>
+            <l>I acted out, my life a stage, ten thousand people watchin'</l>
+            <l>Where's the little boy I knew?</l>
+            <l>I must have forgot him</l>
+            <l>Stuntin', of course we never grew</l>
+            <l>But we're alone now and I'm singing this song for you</l>
+            <l>Stuntin', of course we never grew</l>
+            <l>But we're alone now and I'm singing this song...you</l>
+          </lg>
+          <lg type="Hook">
+            <l>I am not poison, no I am not poison</l>
+            <l>Just a boy from the hood that</l>
+            <l>Got my hands in the air</l>
+            <l>In despair don't shoot</l>
+            <l>I just wanna do good, ah</l>
+            <l>I am not poison, no I am not poison</l>
+            <l>Just a boy from the hood that</l>
+            <l>Got my hands in the air</l>
+            <l>In despair don't shoot</l>
+            <l>I just wanna do good, uh</l>
+            <l>Alochol in my room</l>
+            <l>Spiritual, yes it is spiritual</l>
+            <l>No I'm not poison, no I'm not poison</l>
+            <l>(Just don't calculate us)</l>
+            <l>Spiritual, yes it is spiritual</l>
+            <l>No I'm not poison, no I'm not poison</l>
+            <l>(Just don't calculate us)</l>
+            <l>Spiritual, yes it is spiritual</l>
+            <l>No I'm not poison, no I'm not...</l>
+          </lg>
+        </lg>
+      </p>
+    </body>
+  </text>
+</TEI>

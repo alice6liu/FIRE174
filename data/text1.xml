@@ -8,82 +8,209 @@
         <title type="main">#BEYGOOD: FREEDOM</title>
         <title type="sub">Digital Edition</title>
         <author>
-          <persName xml:id="AL">
-            <forename>Alice</forename>
-            <surname>Liu |</surname>
+          <persName xml:id="JLU">
+            <forename>Jessica</forename>
+            <surname>Lu</surname>
           </persName>
-          <orgName xml:id="FIRE">First Year Innovation and Research Experience (<abbr>FIRE</abbr>)</orgName>
+          <orgName xml:id="AADHum">African American History, Culture, and Digital Humanities (<abbr>AADHum</abbr>) Initiative</orgName>
         </author>
         <respStmt>
-          <resp>TEI Template provided by</resp>
-          <persName>Jessica H. Lu</persName>
-        </respStmt>
-        <respStmt>
           <resp>Encoded by</resp>
-          <persName ref="#AL">
+          <persName xml:id="AL">
             <forename>Alice</forename>
             <surname>Liu</surname>
           </persName>
         </respStmt>
-      </titleStmt>
-      <publicationStmt>
+        <respStmt>
+          <resp>Original text transcribed by</resp>
+            <persName ref="#AL">
+              <forename>Alice</forename>
+              <surname>Liu</surname>
+            </persName>
+        </respStmt>
+      <respStmt>
+        <resp>Orginal TEI template provided by</resp>
+          <persName xml:id="RAFF">
+            <forename>Raffaele</forename>
+            <surname>Viglianti</surname>
+          </persName>
+          <orgName xml:id="MITH">Maryland Institute for Technology in the Humanities (<abbr>MITH</abbr>)</orgName>
+        </respStmt>
+      <funder>
+        <orgName xml:id="MELLON">Andrew W. Mellon Foundation</orgName>
+        <orgName xml:id="FIRE">First-Year Innovation and Research Experience (<abbr>FIRE</abbr>)</orgName>
+      </funder>
+    </titleStmt>
+    <editionStmt>
+      <edition n="1">First Edition</edition>
+    </editionStmt>
+    <extent>
+      <measure unit="page" quantity="1">1 page of original source material</measure>
+    </extent>
+    <publicationStmt>
+      <publisher>
+        <orgName ref="AADHum">African American History, Culture, and Digital Humanities (<abbr>AADHUM</abbr>) Initiative</orgName>
+      </publisher>
+      <pubPlace>
+        <settlement>College Park</settlement>
+        <region>Maryland (<abbr>MD</abbr>)</region>
+      </pubPlace>
+      <date when="2018-12-12">09 July 2018</date>
+      <availability status="free">
+        <p>In the public domain.</p>
+      </availability>
+    </publicationStmt>
+    <seriesStmt>
+      <title type="main">Encoding for Black Lives: Legacies of Resistance and Reinvention in the (Re)Making of Black Freedom Online</title>
+      <title type="sub">Hip Hop Activism</title>
+      <respStmt>
+        <resp>Edited by</resp>
+        <persName ref="#JLU">
+          <forename>Jessica</forename>
+          <surname>Lu</surname>
+        </persName>
+      </respStmt>
+      <respStmt>
+        <resp>Texts identified and assembled by</resp>
+        <persName ref="#AL">
+          <forename>Alice</forename>
+          <surname>Liu</surname>
+        </persName>
+      </respStmt>
+    </seriesStmt>
+    <sourceDesc>
+      <listBibl>
+      <bibl>
+        <title type="main">#BEYGOOD: FREEDOM</title>
+        <author>
+          <persName xml:id="B" ref="https://lccn.loc.gov/no00017294">
+            <forename>Beyoncé</forename>
+            <surname>Knowles-Carter</surname>
+          </persName>
+          <idno type="LCAF">no 00017294</idno>
+        </author>
         <publisher>
-          <orgName ref="#FIRE">First Year Innovation and Research Experience</orgName>
+          <orgName ref="TOWB">The Official Website of Beyonce</orgName>
+        </publisher>
+        <pubPlace ref="http://www.beyonce.com/freedom/">beyonce.com</pubPlace> <!-- I decided to encode Beyonce's website as a place with respect to African American history and the ability to voice one's opinions to the public through the Internet. A Black woman is utilizing digital space to talk directly to her audience, which is important given the historic and contemporary barriers Black women face when asserting their voice or experience.!-->
+        <date when="2016-07-07">7 July 2016</date>
+      </bibl>
+      <bibl xml:id="JLUDISS">
+        <title type="main">Reckoning with Freedom</title>
+        <title type="sub">Legacies of Exclusion, Dehumanization, and Black Resistance in the Rhetoric of the Freedmen's Bureau</title>
+        <author>
+          <persName ref="#JLU">
+            <forename>Jessica</forename>
+            <surname>Lu</surname>
+          </persName>
+        </author>
+        <publisher>
+          <orgName xml:id="UMD">University of Maryland</orgName>
         </publisher>
         <pubPlace>
           <settlement>College Park</settlement>
-          <region>Maryland</region>
+          <region>Maryland (<abbr>MD</abbr>)</region>
+          <country>United States of America (<abbr>USA</abbr>)</country>
         </pubPlace>
-        <date when="2018-04-27">April 27, 2018</date>
-      </publicationStmt>
-      <sourceDesc>
-        <bibl>
-          <title>#BEYGOOD: FREEDOM</title>
-          <author>
-            <persName xml:id="B">Beyonce</persName> <!--Beyonce's name is spelled incorrectly since there should be an accent on the last e. Due to today's online practices, people have adopted a sense of neglect when it comes to spelling in its full manner.!-->
-          </author>
-          <publisher>
-            <orgName ref="TOWB">The Official Website of Beyonce</orgName>
-          </publisher>
-          <pubPlace ref="http://www.beyonce.com/freedom/">beyonce.com</pubPlace> <!-- I decided to encode Beyonce's website as a place with respect to African American history and the ability to voice one's opinions to the public through the Internet. A Black woman is utilizing digital space to talk directly to her audience, which is important given the historic and contemporary barriers Black women face when asserting their voice or experience.!-->
-          <date when="2016-07-07">July 7, 2016</date>
-        </bibl>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <langUsage>
-        <language ident="eng">English</language>
-      </langUsage>
-      <particDesc>
-        <listPerson>
-          <person>
-            <persName ref="#B">
-              <persName ref="https://www.biography.com/people/beyonce-knowles-39230"></persName>
-              <forename>Beyonce</forename>
-              <surname>Knowles-Carter</surname>
-              <note>Beyonce is a singer and film actress who uses her platform to promote feminism, empower people, and bring awareness to social issues.</note>
-            </persName>
-          </person>
-          <person>
-            <persName xml:id="AS" ref="https://www.thenation.com/article/why-alton-sterling-and-philando-castile-are-dead/">
-              <forename>Alton</forename>
-              <surname>Sterling</surname>
-              <note>Alton Sterling was a 37 year old African American who was fatally shot by two white officers in <placeName>Baton Rouge, Louisiana</placeName> on <date when="2016-07-05">July 5, 2016.</date></note>
-            </persName>
-          </person>
-          <person>
-            <persName xml:id="PC" ref="https://www.thenation.com/article/why-alton-sterling-and-philando-castile-are-dead/">
-              <forename>Philando</forename>
-              <surname>Castile</surname>
-              <note>Philando Castile was shot and killed after being pulled over in <placeName>Falcon Heights</placeName> on <date when="2016-07-06">July 6, 2016.</date></note>
-            </persName>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
-  </teiHeader>
-  <text>
-    <body>
+        <date when="2018-06-28">28 June 2018</date>
+    </bibl>
+    <bibl>
+      <interpGrp resp="#LUDISS" type="freedom-ideas">
+        <desc>Ideational analysis of freedom.</desc>
+        <interp xml:id="STRAND1">Strand1</interp>
+        <interp xml:id="STRAND2">Strand2</interp>
+        <interp xml:id="STRAND3">Strand3</interp>
+        <interp xml:id="STRAND4">Strand4</interp>
+        <interp xml:id="STRAND5">Strand5</interp>
+      </interpGrp>
+  </bibl>
+  </listBibl>
+  <biblStruct type="article"> <!-- Provided as an example of using the sourceDesc to cite Black scholarship that grounds the encoder's decisions during the markup process. -->
+    <analytic>
+      <author>
+        <persName xml:id="BEJ">
+          <forename>Bergis</forename>
+          <surname>Jules</surname>
+        </persName>
+      </author>
+      <title>We're all Bonda Fide</title>
+    </analytic>
+    <monogr>
+      <imprint>
+        <pubPlace ref="#M">Medium</pubPlace>
+        <date when="2018-01-05">5 January 2018</date>
+        <note><supplied source="https://medium.com/on-archivy/were-all-bona-fide-f502bdaea029">Website the article lives on</supplied></note>
+      </imprint>
+    </monogr>
+    <note>In this article, Bergis Jules's discusses how digital Blackness has helped to define its impact on the culture, as it helps audiences "understand activism in this moment. [as well as] cultural expression, and surveillance of people of color online."</note>
+  </biblStruct>
+  </sourceDesc>
+</fileDesc>
+<encodingDesc>
+  <editorialDecl>
+    <hyphenation eol="none">
+      <p>Except where normalization disrupts the formatting of the digital surrogate when rendered online, all end-of-line hyphenation in the original source material has been reformed. The <gi>choice</gi> element has been used to enclose <gi>orig</gi> and <gi>reg</gi> elements giving the original hyphenation and regularized version, respectively.</p>
+    </hyphenation>
+    <normalization method="markup">
+      <p>All obvious spelling and typographical errors in the original source material is corrected. The <gi>choice</gi> element has been used to enclose <gi>sic</gi> and <gi>corr</gi> elements giving the original error and correction, respectively.</p>
+    </normalization>
+    <normalization method="silent">
+      <p>Whenever necessary, spacing between words and following punctuation has been regularized to zero spaces; spacing between words has been regularized to one space.</p>
+    </normalization>
+    <normalization source="https://www.newyorker.com/magazine/2017/05/15/the-case-for-black-english">
+      <p>Instances of African American Vernacular English have purposefully NOT been adjusted to comply with American English language practices. African American Vernacular English is wholly valid in its form, features, and creativity, despite the dominance and presumed correctness of American English.</p>
+    </normalization>
+    <p>To represent changes and/or corrections made by the original source authors BEFORE the encoding process, encoders use <gi>add</gi>, <gi>del</gi>, and <gi>subst</gi>.</p>
+    <p>Encoding includes the use of <gi>supplied</gi> to provide clarification and supporting content, including out-links to relevant digital content and citations of Black and Black-centric academic research.</p>
+  </editorialDecl>
+  <samplingDecl>
+    <p>Use as needed to explain when and why only portions or selections of the original source material are sampled.</p>
+  </samplingDecl>
+  <projectDesc>
+    <p>This project seeks to identify, collect, preserve, and analyze FREEDOM discourse, as constituted and argued by Black users online. Directed by Dr. Jessica H. Lu, this project is currently being advanced by several undergraduate students at the University of Maryland, College Park: Sophia Crooks, Kayla Graham, Kaanita Iyer, Ariana Lawson, Alice Liu, and Courtney Richardson.</p>
+  </projectDesc>
+</encodingDesc>
+<profileDesc>
+    <langUsage>
+      <language ident="AAVE">African American Vernacular English</language> <!-- AAVE is purposefully listed first, to visually reinforce its validity alongside Standard American English and primacy among Black Americans. -->
+      <language ident="us-en">Standard American English</language>
+    </langUsage>
+    <particDesc>
+      <listPerson>
+        <person>
+          <persName ref="#B">
+            <persName ref="https://www.biography.com/people/beyonce-knowles-39230"></persName>
+            <forename>Beyoncé</forename>
+            <surname>Knowles-Carter</surname>
+            <note>Beyonce is a singer and film actress who uses her platform to promote feminism, empower people, and bring awareness to social issues.</note>
+          </persName>
+        </person>
+        <person>
+          <persName xml:id="AS" ref="https://www.thenation.com/article/why-alton-sterling-and-philando-castile-are-dead/">
+            <forename>Alton</forename>
+            <surname>Sterling</surname>
+            <note>Alton Sterling was a 37 year old African American who was fatally shot by two white officers in <placeName>Baton Rouge, Louisiana</placeName> on <date when="2016-07-05">July 5, 2016.</date></note>
+          </persName>
+        </person>
+        <person>
+          <persName xml:id="PC" ref="https://www.thenation.com/article/why-alton-sterling-and-philando-castile-are-dead/">
+            <forename>Philando</forename>
+            <surname>Castile</surname>
+            <note>Philando Castile was shot and killed after being pulled over in <placeName>Falcon Heights</placeName> on <date when="2016-07-06">July 6, 2016.</date></note>
+          </persName>
+        </person>
+      </listPerson>
+    </particDesc>
+  </profileDesc>
+  <revisionDesc>
+    <listChange>
+      <change>Identify and explain a substantive change, made on INSERT DATE HERE.</change>
+      <change>Identify and explain the next substantive change, made on INSERT DATE HERE.</change>
+    </listChange>
+  </revisionDesc>
+</teiHeader>
+<text>
+  <body>
       <p>WE <supplied reason="clarification">The Black Population or African Americans in the United States</supplied> ARE SICK AND TIRED OF THE KILLINGS OF YOUNG<lb/>
         MEN AND WOMEN IN OUR COMMUNITIES.</p>
 
@@ -125,6 +252,6 @@
         YOUR VOICE WILL BE HEARD. <supplied reason="action">Beyonce ends with a plead for action among the public. She intends to make her point clear that change needs to happen in order for Black lives to improve.</supplied></p>
 
       <p><persName ref="#B">- BEYONCE</persName></p>
-    </body>
+  </body>
   </text>
 </TEI>
